@@ -127,23 +127,7 @@
         </build>
         
         
-         <repositories>
-                <repository>
-                        <id>repo.spring.io-snapshots</id>
-                        <name>repo.spring.io-snapshots</name>
-                        <url>http://repo.spring.io/libs-snapshot-local</url>
-                        <snapshots>
-                                <enabled>true</enabled>
-                        </snapshots>
-                </repository>
-        </repositories>
         
-            <pluginRepositories>
-                <pluginRepository>
-                        <id>spring-libs-release</id>
-                        <url>http://repo.spring.io/libs-release-local</url>
-                </pluginRepository>
-        </pluginRepositories>
 	
 	
 </project>
