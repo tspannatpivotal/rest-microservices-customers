@@ -1,0 +1,15 @@
+---
+applications:
+- name: microcustomers
+  memory: 1G 
+  instances: 1
+  host: microcustomers
+  path: ./target/rest-microservices-customers-1.0.0.BUILD-SNAPSHOT.jar
+  services:
+    - microconfigserver
+    - microeureka
+    - microrabbitmq
+  env:
+   SPRING_PROFILES_ACTIVE: cloud
+   ENCRYPT_KEY: deadbeef
+   DOMAIN: north.fe.pivotal.io 
