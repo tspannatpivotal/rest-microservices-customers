@@ -129,11 +129,6 @@
         
          <repositories>
                 <repository>
-                        <id>repo.spring.io-milestones</id>
-                        <name>repo.spring.io-milestones</name>
-                        <url>http://repo.spring.io/libs-milestone-local</url>
-                </repository>
-                <repository>
                         <id>repo.spring.io-snapshots</id>
                         <name>repo.spring.io-snapshots</name>
                         <url>http://repo.spring.io/libs-snapshot-local</url>
@@ -144,10 +139,6 @@
         </repositories>
         
             <pluginRepositories>
-        <pluginRepository>
-            <id>spring-libs-milestones</id>
-            <url>http://repo.spring.io/libs-milestone-local</url>
-        </pluginRepository>
                 <pluginRepository>
                         <id>spring-libs-release</id>
                         <url>http://repo.spring.io/libs-release-local</url>
