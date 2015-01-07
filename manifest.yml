@@ -4,7 +4,7 @@ applications:
   memory: 1G 
   instances: 1
   host: microcustomers
-  path: ./target/rest-microservices-customers-1.0.0.BUILD-SNAPSHOT.jar
+  path: ./target/rest-microservices-customers-1.0.0.RC1.jar
   services:
     - microconfigserver
     - microeureka
